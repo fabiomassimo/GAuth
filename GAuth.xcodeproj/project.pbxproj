@@ -1,0 +1,1178 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E505F5BC1CA998BD003FD2A4 /* G-Auth.h in Headers */ = {isa = PBXBuildFile; fileRef = E505F5BB1CA998BD003FD2A4 /* G-Auth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E505F5CA1CA99914003FD2A4 /* GoogleAuthenticatorClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E505F5C71CA99914003FD2A4 /* GoogleAuthenticatorClient.swift */; };
+		E505F5CB1CA99914003FD2A4 /* GoogleAuthenticatorClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E505F5C71CA99914003FD2A4 /* GoogleAuthenticatorClient.swift */; };
+		E505F5CC1CA99914003FD2A4 /* GoogleAuthenticatorClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E505F5C71CA99914003FD2A4 /* GoogleAuthenticatorClient.swift */; };
+		E505F5D61CA99A82003FD2A4 /* G-Auth.h in Headers */ = {isa = PBXBuildFile; fileRef = E505F5BB1CA998BD003FD2A4 /* G-Auth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E505F5D71CA99A83003FD2A4 /* G-Auth.h in Headers */ = {isa = PBXBuildFile; fileRef = E505F5BB1CA998BD003FD2A4 /* G-Auth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E53459F21CA91A72000990A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53459F11CA91A72000990A6 /* AppDelegate.swift */; };
+		E53459F41CA91A72000990A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53459F31CA91A72000990A6 /* ViewController.swift */; };
+		E53459F71CA91A72000990A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53459F51CA91A72000990A6 /* Main.storyboard */; };
+		E53459F91CA91A72000990A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E53459F81CA91A72000990A6 /* Assets.xcassets */; };
+		E53459FC1CA91A72000990A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53459FA1CA91A72000990A6 /* LaunchScreen.storyboard */; };
+		E5A1AE871D1369F000C3142F /* OAuthSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5A1AE861D1369F000C3142F /* OAuthSwift.framework */; };
+		E5B6FE671D0CBF1100B9641D /* GoogleAuthenticatorError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B6FE661D0CBF1100B9641D /* GoogleAuthenticatorError.swift */; };
+		E5B6FE681D0CBF1100B9641D /* GoogleAuthenticatorError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B6FE661D0CBF1100B9641D /* GoogleAuthenticatorError.swift */; };
+		E5B6FE691D0CBF1100B9641D /* GoogleAuthenticatorError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B6FE661D0CBF1100B9641D /* GoogleAuthenticatorError.swift */; };
+		E5B6FE731D0CC98C00B9641D /* GAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E505F5B91CA998BD003FD2A4 /* GAuth.framework */; };
+		E5B6FE741D0CC98C00B9641D /* GAuth.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E505F5B91CA998BD003FD2A4 /* GAuth.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E5B6FE7B1D0CCF0400B9641D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B6FE7A1D0CCF0400B9641D /* Extensions.swift */; };
+		E5B6FE7C1D0CCF0400B9641D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B6FE7A1D0CCF0400B9641D /* Extensions.swift */; };
+		E5B6FE7D1D0CCF0400B9641D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B6FE7A1D0CCF0400B9641D /* Extensions.swift */; };
+		E5B6FE7F1D0CE63C00B9641D /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B6FE7E1D0CE63C00B9641D /* HTTPClient.swift */; };
+		E5B6FE801D0CE63C00B9641D /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B6FE7E1D0CE63C00B9641D /* HTTPClient.swift */; };
+		E5B6FE811D0CE63C00B9641D /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B6FE7E1D0CE63C00B9641D /* HTTPClient.swift */; };
+		E5B6FE831D0CE8B000B9641D /* DeviceAuthorizationToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B6FE821D0CE8B000B9641D /* DeviceAuthorizationToken.swift */; };
+		E5B6FE841D0CE8B000B9641D /* DeviceAuthorizationToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B6FE821D0CE8B000B9641D /* DeviceAuthorizationToken.swift */; };
+		E5B6FE851D0CE8B000B9641D /* DeviceAuthorizationToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B6FE821D0CE8B000B9641D /* DeviceAuthorizationToken.swift */; };
+		E5B6FE871D0CF7C000B9641D /* DispatchAfter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B6FE861D0CF7C000B9641D /* DispatchAfter.swift */; };
+		E5B6FE881D0CF7C000B9641D /* DispatchAfter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B6FE861D0CF7C000B9641D /* DispatchAfter.swift */; };
+		E5B6FE891D0CF7C000B9641D /* DispatchAfter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B6FE861D0CF7C000B9641D /* DispatchAfter.swift */; };
+		E5B6FE911D0ED3BE00B9641D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B6FE901D0ED3BE00B9641D /* AppDelegate.swift */; };
+		E5B6FE931D0ED3BE00B9641D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B6FE921D0ED3BE00B9641D /* ViewController.swift */; };
+		E5B6FE961D0ED3BE00B9641D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5B6FE941D0ED3BE00B9641D /* Main.storyboard */; };
+		E5B6FE981D0ED3BE00B9641D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5B6FE971D0ED3BE00B9641D /* Assets.xcassets */; };
+		E5B6FED91D0EDDCC00B9641D /* GAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E505F5AC1CA9986D003FD2A4 /* GAuth.framework */; };
+		E5B6FEDA1D0EDDCC00B9641D /* GAuth.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E505F5AC1CA9986D003FD2A4 /* GAuth.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E5B6FEFA1D0EE30400B9641D /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5B6FEF81D0EE30400B9641D /* Result.framework */; };
+		E5B6FEFE1D0EE42100B9641D /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5B6FEFC1D0EE42100B9641D /* Result.framework */; };
+		E5B6FF021D0EE42D00B9641D /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5B6FF001D0EE42D00B9641D /* Result.framework */; };
+		E5B6FF331D0EF1F400B9641D /* GoogleAuthenticatorClientSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B6FF321D0EF1F400B9641D /* GoogleAuthenticatorClientSpec.swift */; };
+		E5B6FF351D0EF1F400B9641D /* GAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E505F5B91CA998BD003FD2A4 /* GAuth.framework */; };
+		E5B6FF3E1D0EF31E00B9641D /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5B6FF3B1D0EF31E00B9641D /* Nimble.framework */; };
+		E5B6FF3F1D0EF31E00B9641D /* OHHTTPStubs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5B6FF3C1D0EF31E00B9641D /* OHHTTPStubs.framework */; };
+		E5B6FF401D0EF31E00B9641D /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5B6FF3D1D0EF31E00B9641D /* Quick.framework */; };
+		E5B6FF431D0EFAB200B9641D /* authorize-valid.json in Resources */ = {isa = PBXBuildFile; fileRef = E5B6FF421D0EFAB200B9641D /* authorize-valid.json */; };
+		E5B6FF451D0F000F00B9641D /* OAuthIntegrationProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B6FF441D0F000F00B9641D /* OAuthIntegrationProtocols.swift */; };
+		E5B6FF461D0F000F00B9641D /* OAuthIntegrationProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B6FF441D0F000F00B9641D /* OAuthIntegrationProtocols.swift */; };
+		E5B6FF471D0F000F00B9641D /* OAuthIntegrationProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B6FF441D0F000F00B9641D /* OAuthIntegrationProtocols.swift */; };
+		E5DAAE8A1D1049780092169A /* GoogleAuthenticatorSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DAAE891D1049780092169A /* GoogleAuthenticatorSpec.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E5B6FE751D0CC98C00B9641D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5B77F331CA9121500F8BDD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E505F5B81CA998BD003FD2A4;
+			remoteInfo = "GoogleAuthenticator-iOS";
+		};
+		E5B6FEDB1D0EDDCC00B9641D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5B77F331CA9121500F8BDD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E505F5AB1CA9986D003FD2A4;
+			remoteInfo = "GoogleAuthenticator-tvOS";
+		};
+		E5B6FF361D0EF1F400B9641D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5B77F331CA9121500F8BDD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E505F5B81CA998BD003FD2A4;
+			remoteInfo = "GoogleAuthenticator-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E5B6FE6C1D0CC7EB00B9641D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5B6FE771D0CC98D00B9641D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E5B6FE741D0CC98C00B9641D /* GAuth.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5B6FEDD1D0EDDCC00B9641D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E5B6FEDA1D0EDDCC00B9641D /* GAuth.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E505F59F1CA9985F003FD2A4 /* GAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E505F5AC1CA9986D003FD2A4 /* GAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E505F5B91CA998BD003FD2A4 /* GAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E505F5BB1CA998BD003FD2A4 /* G-Auth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "G-Auth.h"; sourceTree = "<group>"; };
+		E505F5C71CA99914003FD2A4 /* GoogleAuthenticatorClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleAuthenticatorClient.swift; sourceTree = "<group>"; };
+		E505F5D01CA9996D003FD2A4 /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
+		E505F5D21CA99974003FD2A4 /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
+		E505F5D41CA9997B003FD2A4 /* Info-watchOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-watchOS.plist"; sourceTree = "<group>"; };
+		E53459EF1CA91A72000990A6 /* GAuth Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GAuth Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E53459F11CA91A72000990A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E53459F31CA91A72000990A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E53459F61CA91A72000990A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E53459F81CA91A72000990A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E53459FB1CA91A72000990A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E53459FD1CA91A72000990A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5A1AE861D1369F000C3142F /* OAuthSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OAuthSwift.framework; path = Carthage/Build/tvOS/OAuthSwift.framework; sourceTree = SOURCE_ROOT; };
+		E5B6FE661D0CBF1100B9641D /* GoogleAuthenticatorError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleAuthenticatorError.swift; sourceTree = "<group>"; };
+		E5B6FE7A1D0CCF0400B9641D /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E5B6FE7E1D0CE63C00B9641D /* HTTPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		E5B6FE821D0CE8B000B9641D /* DeviceAuthorizationToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceAuthorizationToken.swift; sourceTree = "<group>"; };
+		E5B6FE861D0CF7C000B9641D /* DispatchAfter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchAfter.swift; sourceTree = "<group>"; };
+		E5B6FE8E1D0ED3BD00B9641D /* GAuthTV Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GAuthTV Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5B6FE901D0ED3BE00B9641D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E5B6FE921D0ED3BE00B9641D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E5B6FE951D0ED3BE00B9641D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E5B6FE971D0ED3BE00B9641D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E5B6FE991D0ED3BE00B9641D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5B6FEF81D0EE30400B9641D /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/tvOS/Result.framework; sourceTree = SOURCE_ROOT; };
+		E5B6FEFC1D0EE42100B9641D /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = SOURCE_ROOT; };
+		E5B6FF001D0EE42D00B9641D /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/watchOS/Result.framework; sourceTree = SOURCE_ROOT; };
+		E5B6FF301D0EF1F400B9641D /* GAuthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GAuthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5B6FF321D0EF1F400B9641D /* GoogleAuthenticatorClientSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAuthenticatorClientSpec.swift; sourceTree = "<group>"; };
+		E5B6FF341D0EF1F400B9641D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5B6FF3B1D0EF31E00B9641D /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = SOURCE_ROOT; };
+		E5B6FF3C1D0EF31E00B9641D /* OHHTTPStubs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OHHTTPStubs.framework; path = Carthage/Build/iOS/OHHTTPStubs.framework; sourceTree = SOURCE_ROOT; };
+		E5B6FF3D1D0EF31E00B9641D /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = SOURCE_ROOT; };
+		E5B6FF421D0EFAB200B9641D /* authorize-valid.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "authorize-valid.json"; sourceTree = "<group>"; };
+		E5B6FF441D0F000F00B9641D /* OAuthIntegrationProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuthIntegrationProtocols.swift; sourceTree = "<group>"; };
+		E5DAAE891D1049780092169A /* GoogleAuthenticatorSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleAuthenticatorSpec.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E505F59B1CA9985F003FD2A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5B6FF021D0EE42D00B9641D /* Result.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E505F5A81CA9986D003FD2A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5B6FEFA1D0EE30400B9641D /* Result.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E505F5B51CA998BD003FD2A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5B6FEFE1D0EE42100B9641D /* Result.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E53459EC1CA91A72000990A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5B6FE731D0CC98C00B9641D /* GAuth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5B6FE8B1D0ED3BD00B9641D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5B6FED91D0EDDCC00B9641D /* GAuth.framework in Frameworks */,
+				E5A1AE871D1369F000C3142F /* OAuthSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5B6FF2D1D0EF1F400B9641D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5B6FF351D0EF1F400B9641D /* GAuth.framework in Frameworks */,
+				E5B6FF3E1D0EF31E00B9641D /* Nimble.framework in Frameworks */,
+				E5B6FF3F1D0EF31E00B9641D /* OHHTTPStubs.framework in Frameworks */,
+				E5B6FF401D0EF31E00B9641D /* Quick.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E505F55E1CA9463D003FD2A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5A1AE861D1369F000C3142F /* OAuthSwift.framework */,
+				E5B6FF3B1D0EF31E00B9641D /* Nimble.framework */,
+				E5B6FF3C1D0EF31E00B9641D /* OHHTTPStubs.framework */,
+				E5B6FF3D1D0EF31E00B9641D /* Quick.framework */,
+				E5B6FF001D0EE42D00B9641D /* Result.framework */,
+				E5B6FEFC1D0EE42100B9641D /* Result.framework */,
+				E5B6FEF81D0EE30400B9641D /* Result.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		E505F5C61CA99914003FD2A4 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E5B6FE791D0CCEF300B9641D /* Utilities */,
+				E505F5BB1CA998BD003FD2A4 /* G-Auth.h */,
+				E505F5D41CA9997B003FD2A4 /* Info-watchOS.plist */,
+				E505F5D21CA99974003FD2A4 /* Info-tvOS.plist */,
+				E505F5D01CA9996D003FD2A4 /* Info-iOS.plist */,
+				E505F5C71CA99914003FD2A4 /* GoogleAuthenticatorClient.swift */,
+				E505F5C81CA99914003FD2A4 /* Models */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		E505F5C81CA99914003FD2A4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E5B6FE661D0CBF1100B9641D /* GoogleAuthenticatorError.swift */,
+				E5B6FE821D0CE8B000B9641D /* DeviceAuthorizationToken.swift */,
+				E5B6FF441D0F000F00B9641D /* OAuthIntegrationProtocols.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E53459F01CA91A72000990A6 /* GAuth Example */ = {
+			isa = PBXGroup;
+			children = (
+				E53459F11CA91A72000990A6 /* AppDelegate.swift */,
+				E53459F31CA91A72000990A6 /* ViewController.swift */,
+				E53459F51CA91A72000990A6 /* Main.storyboard */,
+				E53459F81CA91A72000990A6 /* Assets.xcassets */,
+				E53459FA1CA91A72000990A6 /* LaunchScreen.storyboard */,
+				E53459FD1CA91A72000990A6 /* Info.plist */,
+			);
+			path = "GAuth Example";
+			sourceTree = "<group>";
+		};
+		E5B6FE791D0CCEF300B9641D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E5B6FE7A1D0CCF0400B9641D /* Extensions.swift */,
+				E5B6FE7E1D0CE63C00B9641D /* HTTPClient.swift */,
+				E5B6FE861D0CF7C000B9641D /* DispatchAfter.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		E5B6FE8F1D0ED3BE00B9641D /* GAuth tvOS Example */ = {
+			isa = PBXGroup;
+			children = (
+				E5B6FE901D0ED3BE00B9641D /* AppDelegate.swift */,
+				E5B6FE921D0ED3BE00B9641D /* ViewController.swift */,
+				E5B6FE941D0ED3BE00B9641D /* Main.storyboard */,
+				E5B6FE971D0ED3BE00B9641D /* Assets.xcassets */,
+				E5B6FE991D0ED3BE00B9641D /* Info.plist */,
+			);
+			path = "GAuth tvOS Example";
+			sourceTree = "<group>";
+		};
+		E5B6FF311D0EF1F400B9641D /* GoogleAuthenticatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				E5B6FF411D0EFA4200B9641D /* JSON Responses */,
+				E5B6FF321D0EF1F400B9641D /* GoogleAuthenticatorClientSpec.swift */,
+				E5B6FF341D0EF1F400B9641D /* Info.plist */,
+				E5DAAE891D1049780092169A /* GoogleAuthenticatorSpec.swift */,
+			);
+			path = GoogleAuthenticatorTests;
+			sourceTree = "<group>";
+		};
+		E5B6FF411D0EFA4200B9641D /* JSON Responses */ = {
+			isa = PBXGroup;
+			children = (
+				E5B6FF421D0EFAB200B9641D /* authorize-valid.json */,
+			);
+			path = "JSON Responses";
+			sourceTree = "<group>";
+		};
+		E5B77F321CA9121500F8BDD3 = {
+			isa = PBXGroup;
+			children = (
+				E505F5C61CA99914003FD2A4 /* Sources */,
+				E53459F01CA91A72000990A6 /* GAuth Example */,
+				E5B6FE8F1D0ED3BE00B9641D /* GAuth tvOS Example */,
+				E5B6FF311D0EF1F400B9641D /* GoogleAuthenticatorTests */,
+				E505F55E1CA9463D003FD2A4 /* Frameworks */,
+				E5B77F3D1CA9121500F8BDD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5B77F3D1CA9121500F8BDD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E53459EF1CA91A72000990A6 /* GAuth Example.app */,
+				E505F59F1CA9985F003FD2A4 /* GAuth.framework */,
+				E505F5AC1CA9986D003FD2A4 /* GAuth.framework */,
+				E505F5B91CA998BD003FD2A4 /* GAuth.framework */,
+				E5B6FE8E1D0ED3BD00B9641D /* GAuthTV Example.app */,
+				E5B6FF301D0EF1F400B9641D /* GAuthTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E505F59C1CA9985F003FD2A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E505F5D71CA99A83003FD2A4 /* G-Auth.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E505F5A91CA9986D003FD2A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E505F5D61CA99A82003FD2A4 /* G-Auth.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E505F5B61CA998BD003FD2A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E505F5BC1CA998BD003FD2A4 /* G-Auth.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E505F59E1CA9985F003FD2A4 /* GAuth-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E505F5A61CA9985F003FD2A4 /* Build configuration list for PBXNativeTarget "GAuth-watchOS" */;
+			buildPhases = (
+				E505F59A1CA9985F003FD2A4 /* Sources */,
+				E505F59B1CA9985F003FD2A4 /* Frameworks */,
+				E505F59C1CA9985F003FD2A4 /* Headers */,
+				E505F59D1CA9985F003FD2A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GAuth-watchOS";
+			productName = "GoogleAuthenticator-watchOS";
+			productReference = E505F59F1CA9985F003FD2A4 /* GAuth.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E505F5AB1CA9986D003FD2A4 /* GAuth-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E505F5B11CA9986D003FD2A4 /* Build configuration list for PBXNativeTarget "GAuth-tvOS" */;
+			buildPhases = (
+				E505F5A71CA9986D003FD2A4 /* Sources */,
+				E505F5A81CA9986D003FD2A4 /* Frameworks */,
+				E505F5A91CA9986D003FD2A4 /* Headers */,
+				E505F5AA1CA9986D003FD2A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GAuth-tvOS";
+			productName = "GoogleAuthenticator-tvOS";
+			productReference = E505F5AC1CA9986D003FD2A4 /* GAuth.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E505F5B81CA998BD003FD2A4 /* GAuth-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E505F5C21CA998BE003FD2A4 /* Build configuration list for PBXNativeTarget "GAuth-iOS" */;
+			buildPhases = (
+				E505F5B41CA998BD003FD2A4 /* Sources */,
+				E505F5B51CA998BD003FD2A4 /* Frameworks */,
+				E505F5B61CA998BD003FD2A4 /* Headers */,
+				E505F5B71CA998BD003FD2A4 /* Resources */,
+				E5B6FE6C1D0CC7EB00B9641D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GAuth-iOS";
+			productName = "GoogleAuthenticator-iOS";
+			productReference = E505F5B91CA998BD003FD2A4 /* GAuth.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E53459EE1CA91A72000990A6 /* GAuthExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5345A001CA91A72000990A6 /* Build configuration list for PBXNativeTarget "GAuthExample" */;
+			buildPhases = (
+				E53459EB1CA91A72000990A6 /* Sources */,
+				E53459EC1CA91A72000990A6 /* Frameworks */,
+				E53459ED1CA91A72000990A6 /* Resources */,
+				E5B6FE771D0CC98D00B9641D /* Embed Frameworks */,
+				E5B6FE781D0CCA0B00B9641D /* Copy Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5B6FE761D0CC98C00B9641D /* PBXTargetDependency */,
+			);
+			name = GAuthExample;
+			productName = GoogleAuthenticatorExample;
+			productReference = E53459EF1CA91A72000990A6 /* GAuth Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E5B6FE8D1D0ED3BD00B9641D /* GAuthTV Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5B6FE9C1D0ED3BE00B9641D /* Build configuration list for PBXNativeTarget "GAuthTV Example" */;
+			buildPhases = (
+				E5B6FE8A1D0ED3BD00B9641D /* Sources */,
+				E5B6FE8B1D0ED3BD00B9641D /* Frameworks */,
+				E5B6FE8C1D0ED3BD00B9641D /* Resources */,
+				E5B6FEC71D0EDC0A00B9641D /* Copy Frameworks */,
+				E5B6FEDD1D0EDDCC00B9641D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5B6FEDC1D0EDDCC00B9641D /* PBXTargetDependency */,
+			);
+			name = "GAuthTV Example";
+			productName = "GoogleAuthenticatorTV Example";
+			productReference = E5B6FE8E1D0ED3BD00B9641D /* GAuthTV Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E5B6FF2F1D0EF1F400B9641D /* GAuthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5B6FF381D0EF1F400B9641D /* Build configuration list for PBXNativeTarget "GAuthTests" */;
+			buildPhases = (
+				E5B6FF2C1D0EF1F400B9641D /* Sources */,
+				E5B6FF2D1D0EF1F400B9641D /* Frameworks */,
+				E5B6FF2E1D0EF1F400B9641D /* Resources */,
+				E5B6FF481D0F037400B9641D /* Copy Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5B6FF371D0EF1F400B9641D /* PBXTargetDependency */,
+			);
+			name = GAuthTests;
+			productName = GoogleAuthenticatorTests;
+			productReference = E5B6FF301D0EF1F400B9641D /* GAuthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5B77F331CA9121500F8BDD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Touchwonders;
+				TargetAttributes = {
+					E505F59E1CA9985F003FD2A4 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					E505F5AB1CA9986D003FD2A4 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					E505F5B81CA998BD003FD2A4 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					E53459EE1CA91A72000990A6 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					E5B6FE8D1D0ED3BD00B9641D = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					E5B6FF2F1D0EF1F400B9641D = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = E5B77F361CA9121500F8BDD3 /* Build configuration list for PBXProject "GAuth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E5B77F321CA9121500F8BDD3;
+			productRefGroup = E5B77F3D1CA9121500F8BDD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E505F59E1CA9985F003FD2A4 /* GAuth-watchOS */,
+				E505F5AB1CA9986D003FD2A4 /* GAuth-tvOS */,
+				E505F5B81CA998BD003FD2A4 /* GAuth-iOS */,
+				E53459EE1CA91A72000990A6 /* GAuthExample */,
+				E5B6FE8D1D0ED3BD00B9641D /* GAuthTV Example */,
+				E5B6FF2F1D0EF1F400B9641D /* GAuthTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E505F59D1CA9985F003FD2A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E505F5AA1CA9986D003FD2A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E505F5B71CA998BD003FD2A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E53459ED1CA91A72000990A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E53459FC1CA91A72000990A6 /* LaunchScreen.storyboard in Resources */,
+				E53459F91CA91A72000990A6 /* Assets.xcassets in Resources */,
+				E53459F71CA91A72000990A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5B6FE8C1D0ED3BD00B9641D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5B6FE981D0ED3BE00B9641D /* Assets.xcassets in Resources */,
+				E5B6FE961D0ED3BE00B9641D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5B6FF2E1D0EF1F400B9641D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5B6FF431D0EFAB200B9641D /* authorize-valid.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E5B6FE781D0CCA0B00B9641D /* Copy Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
+				"$(SRCROOT)/Carthage/Build/tvOS/OAuthSwift.framework",
+			);
+			name = "Copy Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		E5B6FEC71D0EDC0A00B9641D /* Copy Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/tvOS/Result.framework",
+				"$(SRCROOT)/Carthage/Build/tvOS/OAuthSwift.framework",
+			);
+			name = "Copy Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		E5B6FF481D0F037400B9641D /* Copy Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Nimble.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Quick.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/OHHTTPStubs.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
+			);
+			name = "Copy Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E505F59A1CA9985F003FD2A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5B6FE871D0CF7C000B9641D /* DispatchAfter.swift in Sources */,
+				E5B6FE831D0CE8B000B9641D /* DeviceAuthorizationToken.swift in Sources */,
+				E505F5CA1CA99914003FD2A4 /* GoogleAuthenticatorClient.swift in Sources */,
+				E5B6FE671D0CBF1100B9641D /* GoogleAuthenticatorError.swift in Sources */,
+				E5B6FE7F1D0CE63C00B9641D /* HTTPClient.swift in Sources */,
+				E5B6FF451D0F000F00B9641D /* OAuthIntegrationProtocols.swift in Sources */,
+				E5B6FE7B1D0CCF0400B9641D /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E505F5A71CA9986D003FD2A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5B6FE881D0CF7C000B9641D /* DispatchAfter.swift in Sources */,
+				E5B6FE841D0CE8B000B9641D /* DeviceAuthorizationToken.swift in Sources */,
+				E505F5CB1CA99914003FD2A4 /* GoogleAuthenticatorClient.swift in Sources */,
+				E5B6FE681D0CBF1100B9641D /* GoogleAuthenticatorError.swift in Sources */,
+				E5B6FE801D0CE63C00B9641D /* HTTPClient.swift in Sources */,
+				E5B6FF461D0F000F00B9641D /* OAuthIntegrationProtocols.swift in Sources */,
+				E5B6FE7C1D0CCF0400B9641D /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E505F5B41CA998BD003FD2A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5B6FE891D0CF7C000B9641D /* DispatchAfter.swift in Sources */,
+				E5B6FE851D0CE8B000B9641D /* DeviceAuthorizationToken.swift in Sources */,
+				E505F5CC1CA99914003FD2A4 /* GoogleAuthenticatorClient.swift in Sources */,
+				E5B6FE691D0CBF1100B9641D /* GoogleAuthenticatorError.swift in Sources */,
+				E5B6FE811D0CE63C00B9641D /* HTTPClient.swift in Sources */,
+				E5B6FF471D0F000F00B9641D /* OAuthIntegrationProtocols.swift in Sources */,
+				E5B6FE7D1D0CCF0400B9641D /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E53459EB1CA91A72000990A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E53459F41CA91A72000990A6 /* ViewController.swift in Sources */,
+				E53459F21CA91A72000990A6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5B6FE8A1D0ED3BD00B9641D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5B6FE931D0ED3BE00B9641D /* ViewController.swift in Sources */,
+				E5B6FE911D0ED3BE00B9641D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5B6FF2C1D0EF1F400B9641D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5B6FF331D0EF1F400B9641D /* GoogleAuthenticatorClientSpec.swift in Sources */,
+				E5DAAE8A1D1049780092169A /* GoogleAuthenticatorSpec.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E5B6FE761D0CC98C00B9641D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E505F5B81CA998BD003FD2A4 /* GAuth-iOS */;
+			targetProxy = E5B6FE751D0CC98C00B9641D /* PBXContainerItemProxy */;
+		};
+		E5B6FEDC1D0EDDCC00B9641D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E505F5AB1CA9986D003FD2A4 /* GAuth-tvOS */;
+			targetProxy = E5B6FEDB1D0EDDCC00B9641D /* PBXContainerItemProxy */;
+		};
+		E5B6FF371D0EF1F400B9641D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E505F5B81CA998BD003FD2A4 /* GAuth-iOS */;
+			targetProxy = E5B6FF361D0EF1F400B9641D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E53459F51CA91A72000990A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E53459F61CA91A72000990A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E53459FA1CA91A72000990A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E53459FB1CA91A72000990A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E5B6FE941D0ED3BE00B9641D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5B6FE951D0ED3BE00B9641D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E505F5A41CA9985F003FD2A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sources/Info-watchOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.touchwonders.GAuth-watchOS";
+				PRODUCT_NAME = GAuth;
+				SDKROOT = watchos2.2;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		E505F5A51CA9985F003FD2A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
+				INFOPLIST_FILE = "Sources/Info-watchOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.touchwonders.GAuth-watchOS";
+				PRODUCT_NAME = GAuth;
+				SDKROOT = watchos2.2;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		E505F5B21CA9986D003FD2A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sources/Info-tvOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.touchwonders.GAuth-tvOS";
+				PRODUCT_NAME = GAuth;
+				SDKROOT = appletvos9.2;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		E505F5B31CA9986D003FD2A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = "Sources/Info-tvOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.touchwonders.GAuth-tvOS";
+				PRODUCT_NAME = GAuth;
+				SDKROOT = appletvos9.2;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		E505F5C31CA998BE003FD2A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sources/Info-iOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.touchwonders.GAuth-iOS";
+				PRODUCT_NAME = GAuth;
+				SDKROOT = iphoneos9.3;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E505F5C41CA998BE003FD2A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				INFOPLIST_FILE = "Sources/Info-iOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.touchwonders.GAuth-iOS";
+				PRODUCT_NAME = GAuth;
+				SDKROOT = iphoneos9.3;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E53459FE1CA91A72000990A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "GAuth Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.touchwonders.gauthexample;
+				PRODUCT_NAME = "GAuth Example";
+			};
+			name = Debug;
+		};
+		E53459FF1CA91A72000990A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "GAuth Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.touchwonders.gauthexample;
+				PRODUCT_NAME = "GAuth Example";
+			};
+			name = Release;
+		};
+		E5B6FE9A1D0ED3BE00B9641D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = "GAuth tvOS Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.touchwonders.GoogleAuthenticatorTV-Example";
+				PRODUCT_NAME = "GAuthTV Example";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		E5B6FE9B1D0ED3BE00B9641D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = "GAuth tvOS Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.touchwonders.GoogleAuthenticatorTV-Example";
+				PRODUCT_NAME = "GAuthTV Example";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		E5B6FF391D0EF1F400B9641D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = GoogleAuthenticatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.touchwonders.GoogleAuthenticatorTests;
+				PRODUCT_NAME = GAuthTests;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E5B6FF3A1D0EF1F400B9641D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = GoogleAuthenticatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.touchwonders.GoogleAuthenticatorTests;
+				PRODUCT_NAME = GAuthTests;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		E5B77F4E1CA9121500F8BDD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "";
+				SDKROOT = iphoneos9.3;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E5B77F4F1CA9121500F8BDD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_SWIFT_FLAGS = "";
+				SDKROOT = iphoneos9.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E505F5A61CA9985F003FD2A4 /* Build configuration list for PBXNativeTarget "GAuth-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E505F5A41CA9985F003FD2A4 /* Debug */,
+				E505F5A51CA9985F003FD2A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E505F5B11CA9986D003FD2A4 /* Build configuration list for PBXNativeTarget "GAuth-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E505F5B21CA9986D003FD2A4 /* Debug */,
+				E505F5B31CA9986D003FD2A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E505F5C21CA998BE003FD2A4 /* Build configuration list for PBXNativeTarget "GAuth-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E505F5C31CA998BE003FD2A4 /* Debug */,
+				E505F5C41CA998BE003FD2A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5345A001CA91A72000990A6 /* Build configuration list for PBXNativeTarget "GAuthExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E53459FE1CA91A72000990A6 /* Debug */,
+				E53459FF1CA91A72000990A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5B6FE9C1D0ED3BE00B9641D /* Build configuration list for PBXNativeTarget "GAuthTV Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5B6FE9A1D0ED3BE00B9641D /* Debug */,
+				E5B6FE9B1D0ED3BE00B9641D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5B6FF381D0EF1F400B9641D /* Build configuration list for PBXNativeTarget "GAuthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5B6FF391D0EF1F400B9641D /* Debug */,
+				E5B6FF3A1D0EF1F400B9641D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5B77F361CA9121500F8BDD3 /* Build configuration list for PBXProject "GAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5B77F4E1CA9121500F8BDD3 /* Debug */,
+				E5B77F4F1CA9121500F8BDD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5B77F331CA9121500F8BDD3 /* Project object */;
+}

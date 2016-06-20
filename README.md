@@ -1,2 +1,3 @@
-# G-Auth
+# GAuth
+
 Make authentication with Google Services easier.

@@ -1,0 +1,44 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "18E006DB442E149D9A38A7F341F3E15476772B43",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "221CBE730F8ED96CEBEB80802B824C8D1E35CFAF" : 0,
+    "4E8FE33026C73951A712CD33348204351A71B278" : 0,
+    "A65BCAA9B7A77500BBF95593800C3F1B9D215F5E" : 0,
+    "18E006DB442E149D9A38A7F341F3E15476772B43" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "DB123CB3-3B4D-4A84-BE84-A71409AB6142",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "221CBE730F8ED96CEBEB80802B824C8D1E35CFAF" : "GoogleAuthenticator\/",
+    "4E8FE33026C73951A712CD33348204351A71B278" : "GoogleAuthenticator\/Carthage\/Checkouts\/Locksmith\/",
+    "A65BCAA9B7A77500BBF95593800C3F1B9D215F5E" : "GoogleAuthenticator\/Carthage\/Checkouts\/OAuthSwift\/",
+    "18E006DB442E149D9A38A7F341F3E15476772B43" : "G-Auth\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "GoogleAuthenticator",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "GoogleAuthenticator.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/fabiomassimo\/G-Auth.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "18E006DB442E149D9A38A7F341F3E15476772B43"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/fabiomassimo\/GoogleAuthenticator.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "221CBE730F8ED96CEBEB80802B824C8D1E35CFAF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/matthewpalmer\/Locksmith.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4E8FE33026C73951A712CD33348204351A71B278"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/fabiomassimo\/OAuthSwift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A65BCAA9B7A77500BBF95593800C3F1B9D215F5E"
+    }
+  ]
+}

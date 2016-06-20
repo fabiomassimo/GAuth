@@ -1,0 +1,4 @@
+github "Quick/Nimble" "v4.0.1"
+github "fabiomassimo/OAuthSwift" "144cb0128616f9b21b78f7c70969e94453a4f218"
+github "Quick/Quick" "v0.9.2"
+github "antitypical/Result" "2.1.0"

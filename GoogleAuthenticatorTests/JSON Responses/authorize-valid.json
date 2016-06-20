@@ -1,0 +1,7 @@
+{
+  "access_token": "THE_STUB_ACCESS_TOKEN",
+  "expires_in": 3600,
+  "token_type": "bearer",
+  "scope": "https://www.googleapis.com/auth/analytics.readonly",
+  "refresh_token": "THE_STUB_REFRESH_TOKEN"
+}
