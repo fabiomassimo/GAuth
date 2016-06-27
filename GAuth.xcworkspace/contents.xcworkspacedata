@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "container:/Users/Fabio/Developer/github/iOS/G-Auth/GAuth.xcodeproj">
+      location = "container:GAuth.xcodeproj">
    </FileRef>
 </Workspace>
