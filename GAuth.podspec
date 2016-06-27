@@ -14,4 +14,6 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
   spec.source = { git: "https://www.github.com/fabiomassimo/GAuth", tag: "v#{spec.version}", submodules: true }
   spec.source_files = "Sources/**/*.{h,swift}"
+
+  spec.dependency "Result", "~> 1.0"
 end
