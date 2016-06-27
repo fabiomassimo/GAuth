@@ -128,7 +128,7 @@ public class GoogleAuthenticatorClient<T: GoogleAuthenticatorOAuthClient>: NSObj
             return false
         }
         
-        return token.isExpired
+        return !token.isExpired
     }
     
     /// Alters the given request by adding authentication, if possible.
