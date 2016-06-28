@@ -10,7 +10,7 @@ import Foundation
 import Result
 
 /// The Google Authenticator Client is responsible to provide an easy integration with Google authentication process for you.
-public class GoogleAuthenticatorClient<T: GoogleAuthenticatorOAuthClient>: NSObject {
+public final class GoogleAuthenticatorClient<T: GoogleAuthenticatorOAuthClient> {
     
     /// The client ID used to initialize the authenticator
     public var clientID: String {
@@ -128,7 +128,7 @@ public class GoogleAuthenticatorClient<T: GoogleAuthenticatorOAuthClient>: NSObj
             return false
         }
         
-        return !token.isExpired
+        return !token.isExpired && !token.accessToken.isEmpty
     }
     
     /// Alters the given request by adding authentication, if possible.
