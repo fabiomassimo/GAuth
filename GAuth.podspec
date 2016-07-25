@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.watchos.deployment_target = '2.0'
   
   spec.requires_arc = true
-  spec.source = { git: "https://www.github.com/fabiomassimo/GAuth", tag: "#{spec.version}", submodules: true }
+  spec.source = { git: "https://github.com/fabiomassimo/GAuth.git", tag: "#{spec.version}", submodules: true }
   spec.source_files = "Sources/**/*.{h,swift}"
 
   spec.dependency "Result", "~> 2.1"
