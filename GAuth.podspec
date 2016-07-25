@@ -15,5 +15,5 @@ Pod::Spec.new do |spec|
   spec.source = { git: "https://www.github.com/fabiomassimo/GAuth", tag: "v#{spec.version}", submodules: true }
   spec.source_files = "Sources/**/*.{h,swift}"
 
-  spec.dependency "Result", "~> 1.0"
+  spec.dependency "Result", "~> 2.1"
 end
