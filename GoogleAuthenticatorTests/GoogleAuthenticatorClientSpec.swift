@@ -11,7 +11,7 @@ import Quick
 import OHHTTPStubs
 import Result
 
-@testable import GoogleAuthenticator
+@testable import GAuth
 
 class GoogleAuthenticatorClientSpec: QuickSpec {
     

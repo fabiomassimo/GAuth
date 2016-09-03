@@ -9,7 +9,7 @@
 import Foundation
 import Result
 
-@testable import GoogleAuthenticator
+@testable import GAuth
 
 public struct TokenMock {
     public let accessToken: String
