@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = "GAuth"
-  spec.version = "0.1.0"
+  spec.version = "0.2.0"
   spec.summary = "Authentication to Google services made easy."
   spec.homepage = "https://www.github.com/fabiomassimo/GAuth"
   spec.license = { type: 'MIT', file: 'LICENSE' }
