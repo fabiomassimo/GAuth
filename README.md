@@ -18,7 +18,7 @@ GAuth cares to support all platforms therefore it also implements the [Device Au
 
 # Roadmap
 
-- [ ] Include code example
+- [x] Include code example
 - [ ] Add more Google Service Scope.
 - [ ] Added Travis CI/Circle CI to the repo
 - [ ] Add support for Swift 3
