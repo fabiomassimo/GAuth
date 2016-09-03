@@ -43,7 +43,7 @@ public final class GoogleAuthenticatorClient<T: GoogleAuthenticatorOAuthClient> 
      
      - returns: A fully equipped Google Authenticator Client ready to use.
      */
-    init(oauthClient: T) {
+    public required init(oauthClient: T) {
         self.oauthClient = oauthClient
     }
     
@@ -57,8 +57,9 @@ public final class GoogleAuthenticatorClient<T: GoogleAuthenticatorOAuthClient> 
      
      - returns: A fully equipped Google Authenticator Client ready for action.
      */
-    public init(consumerKey: String, consumerSecret: String, bundleIdentifier: String, scope:GoogleServiceScope) {
-        self.oauthClient = T.Google(clientID: consumerKey, clientSecret: consumerSecret, bundleIdentifier: bundleIdentifier, scope: scope) as! T
+    public convenience init(consumerKey: String, consumerSecret: String, bundleIdentifier: String, scope:GoogleServiceScope) {
+        let oauthClient = T.Google(clientID: consumerKey, clientSecret: consumerSecret, bundleIdentifier: bundleIdentifier, scope: scope) as! T
+        self.init(oauthClient: oauthClient)
     }
 
     // MARK: Public methods
