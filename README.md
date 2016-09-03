@@ -2,7 +2,7 @@
 
 GAuth is small framework that makes authentication to Google Services easier by properly implementing the OAuth authentication flow described in [Google's Developers website](https://developers.google.com/identity/protocols/OAuth2InstalledApp).
 
-GAuth is not about to provide yet another Swift OAuth client but to easily integrate Google Authentication with your exisiting OAuth library. 
+GAuth is not about to provide yet another Swift OAuth client but to easily integrate authentication to Google Services for the OAuth client already used in your project. 
 
 # How to use it
 
