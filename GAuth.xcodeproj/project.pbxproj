@@ -286,7 +286,7 @@
 			path = "GAuth tvOS Example";
 			sourceTree = "<group>";
 		};
-		E5B6FF311D0EF1F400B9641D /* GoogleAuthenticatorTests */ = {
+		E5B6FF311D0EF1F400B9641D /* GAuthTests */ = {
 			isa = PBXGroup;
 			children = (
 				E5B6FF411D0EFA4200B9641D /* JSON Responses */,
@@ -294,7 +294,7 @@
 				E5B6FF341D0EF1F400B9641D /* Info.plist */,
 				E5DAAE891D1049780092169A /* GoogleAuthenticatorSpec.swift */,
 			);
-			path = GoogleAuthenticatorTests;
+			path = GAuthTests;
 			sourceTree = "<group>";
 		};
 		E5B6FF411D0EFA4200B9641D /* JSON Responses */ = {
@@ -311,7 +311,7 @@
 				E505F5C61CA99914003FD2A4 /* Sources */,
 				E53459F01CA91A72000990A6 /* GAuth Example */,
 				E5B6FE8F1D0ED3BE00B9641D /* GAuth tvOS Example */,
-				E5B6FF311D0EF1F400B9641D /* GoogleAuthenticatorTests */,
+				E5B6FF311D0EF1F400B9641D /* GAuthTests */,
 				E505F55E1CA9463D003FD2A4 /* Frameworks */,
 				E5B77F3D1CA9121500F8BDD3 /* Products */,
 			);
@@ -985,7 +985,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = GoogleAuthenticatorTests/Info.plist;
+				INFOPLIST_FILE = GAuthTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.touchwonders.GoogleAuthenticatorTests;
@@ -1001,7 +1001,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = GoogleAuthenticatorTests/Info.plist;
+				INFOPLIST_FILE = GAuthTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.touchwonders.GoogleAuthenticatorTests;
