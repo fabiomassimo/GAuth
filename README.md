@@ -6,11 +6,11 @@ GAuth is not about to provide yet another Swift OAuth client but to easily integ
 
 # How to use it
 
-Integrate GAuth by making your OAuthClient (OAuthSwift, SwiftyOAuth) conform to `GoogleAuthenticatorOAuthClient`.
+Integrate GAuth by making your OAuthClient ([OAuthSwift](https://github.com/OAuthSwift/OAuthSwift), [SwiftyOAuth](https://github.com/delba/SwiftyOAuth)) conform to `GoogleAuthenticatorOAuthClient`.
 
 Finally authorize your device via the `GoogleAuthenticatorClient` by passing the proper OAuth client. 
 
-See the example project (using [OAuthSwift](https://github.com/OAuthSwift/OAuthSwift), [SwiftyOAuth](https://github.com/delba/SwiftyOAuth) to see how it works in details.
+See the example project (using [OAuthSwift](https://github.com/OAuthSwift/OAuthSwift) to see how it works in details.
 
 # Support for Limited Input Device Applications
 
@@ -20,7 +20,7 @@ GAuth cares to support all platforms therefore it also implements the [Device Au
 
 - [x] Include code example
 - [ ] Add more Google Service Scope.
-- [ ] Added Travis CI/Circle CI to the repo
+- [ ] Add Travis CI/Circle CI to the repo
 - [ ] Add support for Swift 3
 
 # Credits
