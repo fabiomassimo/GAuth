@@ -10,11 +10,11 @@ GAuth is small framework that makes authentication to Google Services easier by 
 GAuth is not about to provide yet another Swift OAuth client but to easily integrate authentication to Google Services for the OAuth client already used in your project. 
 
 # Cloning the repo 
-To give `GAuth` a shot folllow this 	steps:
+To give `GAuth` a shot follow this steps:
 
 1. Clone the repo.
 2. Open the terminal and move to the `GAuth` folder.
-3. Type `make setup`.
+3. To setup all required dependencies run `make setup`.
 4. Open the `GAuth.xcworkspace`, build and run.
 
 # Installation
