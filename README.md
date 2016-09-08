@@ -1,3 +1,8 @@
+[![Twitter](https://img.shields.io/badge/twitter-@iamfabiomilano-blue.svg?style=flat)](http://twitter.com/iamfabiomilano)
+[![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/GAuth.svg)](https://img.shields.io/cocoapods/v/GAuth.svg)
+[![Platform](https://img.shields.io/cocoapods/p/GAuth.svg?style=flat)](http://cocoadocs.org/docsets/GAuth)
+
 # GAuth
 
 GAuth is small framework that makes authentication to Google Services easier by properly implementing the OAuth authentication flow described in [Google's Developers website](https://developers.google.com/identity/protocols/OAuth2InstalledApp).
@@ -11,6 +16,20 @@ To give `GAuth` a shot folllow this 	steps:
 2. Open the terminal and move to the `GAuth` folder.
 3. Type `make setup`.
 4. Open the `GAuth.xcworkspace`, build and run.
+
+# Installation
+
+Add via [CocoaPods](https://cocoapods.org/) by adding this to your Podfile:
+
+```
+pod 'GAuth'
+```
+
+If using [Carthage](https://github.com/Carthage/Carthage), add following line into your Cartfile:
+
+```
+github "fabiomassimo/GAuth"
+```
 
 # How to use it
 

@@ -1,3 +1,4 @@
 github "Quick/Quick"
 github "Quick/Nimble"
 github "fabiomassimo/OAuthSwift" "master"
+github "AliSoftware/OHHTTPStubs"
